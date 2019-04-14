@@ -112,7 +112,7 @@ export class AddParticipant extends React.Component {
         return (
             <div>
                 <Button onClick={this.handleClickOpen} variant="contained" color="primary">
-                    VOLUNTARIOS
+                   registrate
                 </Button>
                 <form autoComplete="off" >
                     <Dialog
