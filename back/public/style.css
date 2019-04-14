@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  height: 99vh;
+  width: 98vw;
+}
+
+/* items */
+
+/* specific item styles */
+
+.item-1 {
+  background: #b03532;
+  height: 500px;
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+.item-2 {
+  background: #b03532;
+  height: 250px;
+  max-width: 430px;
+  margin: 0 auto;
+  
+}
+.item-3 {
+  background: #b03532;
+  height: 250px;
+  max-width: 430px;
+  margin: 0 auto;
+  
+}
+.items2y3{
+  display: grid;
+  max-width: 900px;
+  margin: 15px auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 15px;
+  height: 330px;
+}

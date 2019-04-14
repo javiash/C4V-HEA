@@ -2,14 +2,15 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import { firebaseConnect } from 'react-redux-firebase'
-
+import { Route } from 'react-router-dom'
+import Home from './Home'
 export class Main extends Component {
 
 
     render() {
         return (
             <div>
-                <p>Hola Venezuela</p>
+                <Route path='/home' render={() => <Home />}/>
             </div>
         )
     }
